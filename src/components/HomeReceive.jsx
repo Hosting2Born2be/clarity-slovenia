@@ -54,7 +54,7 @@ const HomeReceive = () => {
             </div>
           </div>
           <Link href="#" className="orange-button fadeInUp dt-hidden">
-            Explore More
+            Receive Money
           </Link>
         </div>
       </div>
