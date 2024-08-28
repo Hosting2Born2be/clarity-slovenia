@@ -3,7 +3,7 @@ import React from "react";
 
 const HomeReceive = () => {
   return (
-    <section className="home-receive" id="home-receive">
+    <section className="home-receive" id="receive-money">
       <div className="_container">
         <div className="home-receive__body">
           <div className="home-receive__col-01 fadeInUp">
@@ -53,7 +53,7 @@ const HomeReceive = () => {
               </div>
             </div>
           </div>
-          <Link href="#" className="orange-button fadeInUp dt-hidden">
+          <Link href="https://clarityglobalinc.com/receive.html" target="_blank" className="orange-button fadeInUp dt-hidden">
             Receive Money
           </Link>
         </div>

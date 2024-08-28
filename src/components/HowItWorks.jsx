@@ -3,7 +3,7 @@ import React from "react";
 
 const HowItWorks = () => {
   return (
-    <section className="home-how">
+    <section className="home-how" id="how-it-works">
       <div className="_container">
         <div className="home-how__body">
           <div className="home-how__col-01 fadeInUp">
@@ -16,7 +16,7 @@ const HowItWorks = () => {
                 your global payments:
               </p>
             </div>
-            <Link href="#" className="orange-button ">
+            <Link href="#send-money" className="orange-button ">
               Explore More
             </Link>
           </div>
@@ -51,7 +51,7 @@ const HowItWorks = () => {
               </div>
             </div>
           </div>
-          <Link href="#" className="orange-button fadeInUp dt-hidden">
+          <Link href="#send-money" className="orange-button fadeInUp dt-hidden">
             Explore More
           </Link>
         </div>

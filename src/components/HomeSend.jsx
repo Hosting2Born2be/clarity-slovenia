@@ -46,7 +46,7 @@ const HomeSend = () => {
               </div>
             </div>
           </div>
-          <Link href="#" className="orange-button">Send Money</Link>
+          <Link href="https://clarityglobalinc.com/send.html" target="_blank" className="orange-button">Send Money</Link>
         </div>
       </div>
     </section>

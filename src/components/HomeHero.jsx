@@ -28,7 +28,7 @@ const HomeHero = () => {
                     <span>For personal and Business Needs</span>
                 </li>
             </ul>
-            <Link href="#" className="white-button">
+            <Link href="#how-it-works" className="white-button">
               Let's Start
             </Link>
           </div>

@@ -31,12 +31,12 @@ const Header = () => {
                 </Link>
 
                 <nav className={menuOpened && "opened"}>
-                  <Link href="#">Send Money</Link>
-                  <Link href="#">Receive Money</Link>
+                  <Link href="#send-money">Send Money</Link>
+                  <Link href="#receive-money">Receive Money</Link>
                   <Link href="#">Virtual Card</Link>
-                  <Link href="#">How It works</Link>
+                  <Link href="how-it-works">How It works</Link>
                   <Link href="#">About Us</Link>
-                  <Link href="#">Contact Us</Link>
+                  <Link href="#">Contact Us</Link>
                 </nav>
 
                 <span

@@ -21,16 +21,16 @@ const Footer = () => {
             <h3>Menu</h3>
             <ul>
               <li>
-                <Link href="#">Send Money</Link>
+                <Link href="#send-money">Send Money</Link>
               </li>
               <li>
-                <Link href="#">Receive Money</Link>
+                <Link href="#receive-money">Receive Money</Link>
               </li>
               <li>
                 <Link href="#">Virtual Cards</Link>
               </li>
               <li>
-                <Link href="#">How It Works</Link>
+                <Link href="how-it-works">How It works</Link>
               </li>
               <li>
                 <Link href="#">About Us</Link>
