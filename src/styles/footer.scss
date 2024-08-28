@@ -1,0 +1,119 @@
+@import "mixin";
+
+footer {
+  background: #2d2d2d;
+  .foot-top {
+    display: flex;
+    gap: rem(50);
+    align-items: center;
+    padding: rem(30) 0;
+    border-bottom: 1px solid #ffffff33;
+    @media (max-width: rem(992)) {
+      flex-direction: column;
+      gap: rem(20);
+      align-items: flex-start;
+    }
+    a {
+      display: flex;
+    }
+    span {
+      color: #ffffff;
+      font-size: rem(16);
+      font-weight: 500;
+      line-height: 1.2;
+      text-align: left;
+    }
+  }
+
+  .foot-row {
+    display: flex;
+    gap: rem(90);
+    padding: rem(30) 0;
+    border-bottom: 1px solid #ffffff33;
+    @media (max-width: rem(992)) {
+      flex-direction: column;
+      gap: rem(30);
+    }
+    > div {
+      &:first-child {
+        width: calc(38% - rem(45));
+        @media (max-width: rem(992)) {
+          width: 100%;
+        }
+      }
+      &:last-child {
+        width: calc(62% - rem(45));
+        display: flex;
+        gap: rem(40);
+        @media (max-width: rem(992)) {
+          width: 100%;
+          flex-direction: column;
+          gap: rem(30);
+        }
+      }
+      h3 {
+        color: #ffffff;
+        font-size: rem(16);
+        font-weight: 600;
+        line-height: 1.2;
+        text-align: left;
+        margin: 0 0 rem(15) 0;
+        white-space: nowrap;
+        &:last-child {
+          margin-bottom: 0;
+          margin-top: rem(24);
+        }
+      }
+
+      ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        row-gap: rem(12);
+        column-gap: rem(30);
+        height: rem(85);
+        li {
+          > a,
+          > span {
+            color: #ffffff;
+            font-size: rem(16);
+            font-weight: 300;
+            line-height: 1.2;
+            text-align: left;
+            @media (max-width: rem(992)) {
+              font-size: rem(14);
+            }
+          }
+        }
+      }
+
+      > div {
+        > a,
+        > span {
+          color: #ffffff;
+          font-size: rem(16);
+          font-weight: 300;
+          line-height: 1.2;
+          text-align: left;
+          @media (max-width: rem(992)) {
+            font-size: rem(14);
+          }
+        }
+      }
+    }
+  }
+
+  .foot-bottom {
+    padding: rem(30) 0;
+    span {
+      color: #ffffffb2;
+      font-size: rem(14);
+      font-weight: 400;
+      line-height: 1.2;
+      text-align: left;
+    }
+  }
+}
