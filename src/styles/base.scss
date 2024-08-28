@@ -103,7 +103,7 @@ button {
   font-weight: 500;
   line-height: 1;
   height: rem(48);
-  padding: 0 rem(60);
+  padding: 0 rem(50);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -127,7 +127,7 @@ button {
   font-weight: 500;
   line-height: 1;
   height: rem(48);
-  padding: 0 rem(60);
+  padding: 0 rem(50);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -156,7 +156,7 @@ button {
   align-items: center;
   gap: rem(10);
   height: rem(48);
-  padding: 0 rem(60);
+  padding: 0 rem(50);
   justify-content: center;
   text-decoration: none;
   border-radius: rem(54);
@@ -185,6 +185,9 @@ button {
   animation: fadeInUp linear;
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
+  @media (max-width: rem(992)) {
+    animation-range: entry 0% cover 20%;
+  }
 }
 
 .thanks-popup-wrap {

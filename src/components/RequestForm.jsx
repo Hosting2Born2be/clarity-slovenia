@@ -151,7 +151,7 @@ const RequestForm = () => {
 
   return (
     <>
-      <section className="request-form fadeInUp">
+      <section className="request-form fadeInUp" id="contact-us">
         <div className="_container">
           <h2>NEED ASSISTANCE?</h2>
           <h3>

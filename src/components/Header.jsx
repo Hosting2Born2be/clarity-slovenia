@@ -9,9 +9,12 @@ const Header = () => {
   const pathname = usePathname();
 
   const handleMenu = () => {
-
     setMenuOpened(!menuOpened);
     document.body.classList.toggle("no-scroll", !menuOpened);
+  };
+  const closeMenu = () => {
+    document.body.classList.toggle("no-scroll", !menuOpened);
+    setMenuOpened(false);
   };
 
   useEffect(() => {
@@ -31,12 +34,24 @@ const Header = () => {
                 </Link>
 
                 <nav className={menuOpened && "opened"}>
-                  <Link href="#send-money">Send Money</Link>
-                  <Link href="#receive-money">Receive Money</Link>
-                  <Link href="#">Virtual Card</Link>
-                  <Link href="how-it-works">How It works</Link>
-                  <Link href="#">About Us</Link>
-                  <Link href="#">Contact Us</Link>
+                  <Link href="#send-money" onClick={() => closeMenu()}>
+                    Send Money
+                  </Link>
+                  <Link href="#receive-money" onClick={() => closeMenu()}>
+                    Receive Money
+                  </Link>
+                  <Link href="#" onClick={() => closeMenu()}>
+                    Virtual Card
+                  </Link>
+                  <Link href="how-it-works" onClick={() => closeMenu()}>
+                    How It works
+                  </Link>
+                  <Link href="#" onClick={() => closeMenu()}>
+                    About Us
+                  </Link>
+                  <Link href="#contact-us" onClick={() => closeMenu()}>
+                    Contact Us
+                  </Link>
                 </nav>
 
                 <span
