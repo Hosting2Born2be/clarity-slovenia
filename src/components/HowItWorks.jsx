@@ -7,13 +7,15 @@ const HowItWorks = () => {
       <div className="_container">
         <div className="home-how__body">
           <div className="home-how__col-01 fadeInUp">
-            <h2 className="">How it works</h2>
-            <p className="">
-              Getting started with Clarity <br />
-              Global is simple. Follow these <br />
-              easy steps to begin managing <br />
-              your global payments:
-            </p>
+            <div>
+              <h2 className="">How it works</h2>
+              <p className="">
+                Getting started with Clarity <br />
+                Global is simple. Follow these <br />
+                easy steps to begin managing <br />
+                your global payments:
+              </p>
+            </div>
             <Link href="#" className="orange-button ">
               Explore More
             </Link>
@@ -50,8 +52,8 @@ const HowItWorks = () => {
             </div>
           </div>
           <Link href="#" className="orange-button fadeInUp dt-hidden">
-              Explore More
-            </Link>
+            Explore More
+          </Link>
         </div>
       </div>
     </section>
