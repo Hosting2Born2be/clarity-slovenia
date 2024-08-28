@@ -27,13 +27,13 @@ const Footer = () => {
                 <Link href="#receive-money">Receive Money</Link>
               </li>
               <li>
-                <Link href="#">Virtual Cards</Link>
+                <Link href="#virtual-cards">Virtual Cards</Link>
               </li>
               <li>
                 <Link href="how-it-works">How It works</Link>
               </li>
               <li>
-                <Link href="#">About Us</Link>
+                <Link href="#about-us">About Us</Link>
               </li>
               <li>
                 <Link href="#contact-us">Contact Us</Link>

@@ -40,13 +40,13 @@ const Header = () => {
                   <Link href="#receive-money" onClick={() => closeMenu()}>
                     Receive Money
                   </Link>
-                  <Link href="#" onClick={() => closeMenu()}>
+                  <Link href="#virtual-cards" onClick={() => closeMenu()}>
                     Virtual Card
                   </Link>
                   <Link href="how-it-works" onClick={() => closeMenu()}>
                     How It works
                   </Link>
-                  <Link href="#" onClick={() => closeMenu()}>
+                  <Link href="#about-us" onClick={() => closeMenu()}>
                     About Us
                   </Link>
                   <Link href="#contact-us" onClick={() => closeMenu()}>
