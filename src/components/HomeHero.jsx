@@ -16,15 +16,15 @@ const HomeHero = () => {
             <p className="fadeInUp">Manage Global Payments with Ease</p>
             <ul>
                 <li>
-                    <img src="/images/home/arrow.svg" />
+                    <img src="/images/home/arrow.svg" alt="arrow" />
                     <span>Send and Receive Money</span>
                 </li>
                 <li>
-                    <img src="/images/home/arrow.svg" />
+                    <img src="/images/home/arrow.svg" alt="arrow" />
                     <span>Order and Manage Virtual Cards</span>
                 </li>
                 <li>
-                    <img src="/images/home/arrow.svg" />
+                    <img src="/images/home/arrow.svg" alt="arrow" />
                     <span>For personal and Business Needs</span>
                 </li>
             </ul>
@@ -32,7 +32,7 @@ const HomeHero = () => {
               Let's Start
             </Link>
           </div>
-          <Image src="/images/hero.png" width={540} height={465} />
+          <Image src="/images/hero.png" width={540} height={465} alt="hero" />
         </div>
       </div>
     </section>
