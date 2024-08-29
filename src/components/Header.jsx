@@ -13,7 +13,7 @@ const Header = () => {
     document.body.classList.toggle("no-scroll", !menuOpened);
   };
   const closeMenu = () => {
-    document.body.classList.toggle("no-scroll", !menuOpened);
+    document.body.classList.remove("no-scroll");
     setMenuOpened(false);
   };
 
