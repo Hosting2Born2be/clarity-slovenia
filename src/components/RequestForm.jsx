@@ -114,14 +114,10 @@ const RequestForm = () => {
     values,
     { setSubmitting, resetForm, setStatus }
   ) => {
-    setSubmitting(false);
-    resetForm();
-    setStatus({ success: true });
-    setThanksPopupDisplay(true);
-    /*
+    
       try {
       console.log("Submitting form with values:", values); // Added logging
-      const response = await fetch("/api/emails/request", {
+      const response = await fetch("/api/request", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -136,6 +132,7 @@ const RequestForm = () => {
           setSubmitting(false);
           resetForm();
           setStatus({ success: true });
+          setThanksPopupDisplay(true);
         }, 400);
       } else {
         console.error("Error submitting form:", response.statusText); // Added logging
@@ -146,7 +143,6 @@ const RequestForm = () => {
       setStatus({ success: false });
       setSubmitting(false);
     }
-    */
   };
 
   return (
