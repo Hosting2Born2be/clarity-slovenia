@@ -6,7 +6,7 @@ const HomeSend = () => {
     <section className="send-money" id="send-money">
       <div className="_container">
         <div className="send-money__body">
-          <span className="highlight fadeInUp">HOW TO SEND MONEY</span>
+          <span className="highlights fadeInUp">HOW TO SEND MONEY</span>
           <h2 className="fadeInUp">
             Sending money globally with Clarity Global is straightforward and
             efficient.

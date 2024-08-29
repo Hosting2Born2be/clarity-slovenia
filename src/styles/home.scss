@@ -687,6 +687,22 @@
     }
 
     .react-tel-input {
+      .country-list{
+        width: rem(262);
+        &::-webkit-scrollbar {
+          background: transparent;
+          width: rem(5);
+        }
+      
+        &::-webkit-scrollbar-track {
+          background: #dcdcdc;
+        }
+      
+        &::-webkit-scrollbar-thumb {
+          background-color: #f85c3a;
+          border-radius: 100px;
+        }
+      }
       input {
         font-size: rem(16);
         width: 100%;

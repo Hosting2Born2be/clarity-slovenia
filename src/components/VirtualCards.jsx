@@ -6,7 +6,7 @@ const VirtualCards = () => {
     <section className="virtual-cards" id="virtual-cards">
       <div className="_container">
         <div className="virtual-cards__body">
-          <span className="highlight fadeInUp">OUR VIRTUAL CARDS</span>
+          <span className="highlights fadeInUp">OUR VIRTUAL CARDS</span>
           <h2 className="fadeInUp">
             Discover the convenience of <br />
             Clarity Global's virtual cards:
