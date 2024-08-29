@@ -30,7 +30,7 @@ const Footer = () => {
                 <Link href="#virtual-cards">Virtual Cards</Link>
               </li>
               <li>
-                <Link href="how-it-works">How It works</Link>
+                <Link href="#how-it-works">How It works</Link>
               </li>
               <li>
                 <Link href="#about-us">About Us</Link>

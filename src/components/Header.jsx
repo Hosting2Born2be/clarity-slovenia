@@ -43,7 +43,7 @@ const Header = () => {
                   <Link href="#virtual-cards" onClick={() => closeMenu()}>
                     Virtual Card
                   </Link>
-                  <Link href="how-it-works" onClick={() => closeMenu()}>
+                  <Link href="#how-it-works" onClick={() => closeMenu()}>
                     How It works
                   </Link>
                   <Link href="#about-us" onClick={() => closeMenu()}>
