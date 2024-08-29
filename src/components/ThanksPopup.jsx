@@ -34,7 +34,7 @@ function ThanksPopup() {
         <div>
           <div className="form-wrap">
             <div className="success">
-              <img src="/images/check.svg" />
+              <img src="/images/check.svg" alt="check" />
               <h3>Thank you for reaching out to Clarity Global!</h3>
               <p>
                 Your request has been received, and one of our representatives
