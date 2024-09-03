@@ -22,7 +22,7 @@ export const metadata = {
     },
     description:
       "Explore Clarity Global business solutions for managing international payments. Get secure transactions, competitive fees, and fast transfers with our easy setup and global reach. Now Officially Represented in Slovenia.",
-    //images: "https://clarityglobal.si/images/meta.png",
+    images: "https://clarityglobal.si/images/meta.png",
   },
 };
 
