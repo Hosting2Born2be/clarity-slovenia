@@ -17,11 +17,9 @@ const VirtualCards = () => {
               <div>
                 <h3>Instant Access</h3>
                 <p>
-                  Get your virtual card quickly without waiting <br/>
-                  for physical
-                  delivery. Then, start using it for <br/>
-                  online transactions right
-                  away.
+                  Receive your virtual card promptly, bypassing physical
+                  delivery. <br />
+                  Begin utilizing it for online transactions right away.
                 </p>
               </div>
             </div>
@@ -30,9 +28,11 @@ const VirtualCards = () => {
               <div>
                 <h3>Full Online Management</h3>
                 <p>
-                  Easily control your virtual card settings through our online<br/>
-                  platform. Monitor transactions, adjust limits, and manage <br/>your
-                  card all in one place.
+                  Easily control your virtual card settings through our online
+                  <br />
+                  platform. Monitor transactions, adjust limits, and manage{" "}
+                  <br />
+                  your card all in one place.
                 </p>
               </div>
             </div>
@@ -42,8 +42,8 @@ const VirtualCards = () => {
                 <h3>Enhanced Security</h3>
                 <p>
                   Enjoy peace of mind with virtual cards with robust security
-                  features, protecting <br/>your financial information during online
-                  transactions.
+                  features, protecting <br />
+                  your financial information during online transactions.
                 </p>
               </div>
             </div>

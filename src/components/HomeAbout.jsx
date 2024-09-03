@@ -16,10 +16,10 @@ const HomeAbout = () => {
                 <div>
                   <h3>OUR MISSION</h3>
                   <p>
-                    Clarity Global is dedicated to transforming the way people
-                    handle money across borders. Our mission is to provide
-                    seamless, secure, and innovative financial solutions that
-                    cater to both individuals and businesses, making global
+                    Clarity Global is dedicated to transforming the way
+                    businesses manage money across borders. Our mission is to
+                    provide seamless, secure, and innovative financial solutions
+                    tailored to the current business landscape, making global
                     transactions simpler and more efficient.
                   </p>
                 </div>
@@ -40,10 +40,10 @@ const HomeAbout = () => {
                   <h3>OUR GLOBAL REACH</h3>
                   <p>
                     With a presence in over 180 countries, Clarity Global
-                    connects you to a vast financial services network. Whether
-                    you're sending money, receiving payments, or managing
-                    virtual cards, we are here to support your global financial
-                    needs with reliability and expertise.
+                    connects businesses to a vast financial services network.
+                    Whether your business sends money, receives payments, or
+                    needs virtual cards, we are here to support your global
+                    financial needs with reliability and expertise.
                   </p>
                 </div>
               </div>
@@ -70,9 +70,9 @@ const HomeAbout = () => {
               <div className="fadeInUp">
                 <h3>Customer Focus:</h3>
                 <p>
-                  Your satisfaction is our priority. We are committed to
-                  delivering exceptional service and support, tailored to your
-                  needs.
+                  Our customers' satisfaction is our priority. We are committed
+                  to delivering exceptional service and support, tailored to the
+                  needs of business.
                 </p>
               </div>
             </div>

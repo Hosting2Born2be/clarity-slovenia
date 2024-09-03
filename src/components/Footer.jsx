@@ -39,13 +39,28 @@ const Footer = () => {
                 <Link href="#contact-us">Contact Us</Link>
               </li>
               <li>
-                <Link href="https://clarityglobalinc.com/faq.html" target="_blank">FAQ</Link>
+                <Link
+                  href="https://clarityglobalinc.com/faq.html"
+                  target="_blank"
+                >
+                  FAQ
+                </Link>
               </li>
               <li>
-                <Link href="https://clarityglobalinc.com/help.html" target="_blank">Help</Link>
+                <Link
+                  href="https://clarityglobalinc.com/help.html"
+                  target="_blank"
+                >
+                  Help
+                </Link>
               </li>
               <li>
-                <Link href="https://clarityglobalinc.com/newsletter.html" target="_blank">Newsletter</Link>
+                <Link
+                  href="https://clarityglobalinc.com/newsletter.html"
+                  target="_blank"
+                >
+                  Newsletter
+                </Link>
               </li>
             </ul>
           </div>

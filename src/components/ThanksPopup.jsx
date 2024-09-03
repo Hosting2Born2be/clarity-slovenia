@@ -37,9 +37,9 @@ function ThanksPopup() {
               <img src="/images/check.svg" alt="check" />
               <h3>Thank you for reaching out to Clarity Global!</h3>
               <p>
-                Your request has been received, and one of our representatives
-                will be in touch with you shortly. We appreciate your interest
-                and look forward to assisting you!
+                Your request has been received, and a representative from our
+                team will contact you shortly. We appreciate your interest and
+                look forward to supporting your business needs!
               </p>
             </div>
           </div>

@@ -28,32 +28,36 @@ const HomeReceive = () => {
                 <span>1</span>
                 <h3>Simple Process</h3>
                 <p>
-                  Getting paid is hassle-free. Once your account is set up and
-                  verified, you can receive payments worldwide with just a few
+                  Receiving payments is effortless. Once your account is set up
+                  and verified, you can receive global payments with just a few
                   clicks.
                 </p>
               </div>
               <div class="how-element ">
                 <span>2</span>
-                <h3>Secure Transactions</h3>
+                <h3>Safe Transactions</h3>
                 <p>
-                  Rest assured that your transactions are protected. We use
-                  industry-leading technology to ensure that all funds are
-                  received securely.
+                  Rest assured that your business payments are secure. Our
+                  top-tier technology ensures all funds are handled with the
+                  highest level of protection.
                 </p>
               </div>
               <div class="how-element ">
                 <span>3</span>
                 <h3>Global Reach</h3>
                 <p>
-                  Receive payments from over 180 countries. Our global network
-                  means you can accept money from anywhere, making international
-                  transactions seamless.
+                  Accept payments from over 180 countries. Our extensive global
+                  network enables your business to receive funds from anywhere,
+                  making international transactions seamless.
                 </p>
               </div>
             </div>
           </div>
-          <Link href="https://clarityglobalinc.com/receive.html" target="_blank" className="orange-button fadeInUp dt-hidden">
+          <Link
+            href="https://clarityglobalinc.com/receive.html"
+            target="_blank"
+            className="orange-button fadeInUp dt-hidden"
+          >
             Receive Money
           </Link>
         </div>

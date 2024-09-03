@@ -25,7 +25,7 @@ const HomeHero = () => {
                 </li>
                 <li>
                     <img src="/images/home/arrow.svg" alt="arrow" />
-                    <span>For personal and Business Needs</span>
+                    <span>Cover All Business Payment Needs</span>
                 </li>
             </ul>
             <Link href="#how-it-works" className="white-button">

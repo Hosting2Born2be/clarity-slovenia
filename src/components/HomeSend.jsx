@@ -8,45 +8,52 @@ const HomeSend = () => {
         <div className="send-money__body">
           <span className="highlights fadeInUp">HOW TO SEND MONEY</span>
           <h2 className="fadeInUp">
-            Sending money globally with Clarity Global is straightforward and
-            efficient.
-            <br />
-            Here's how you can easily transfer funds:
+            Clarity Global makes international business payments simple and
+            efficient. <br />
+            Follow these steps to transfer funds easily:
           </h2>
           <div className="wrap">
             <div className="item fadeInUp">
               <span></span>
               <div>
-                <h3>Easy Setup</h3>
+                <h3>Quick Setup</h3>
                 <p>
-                  Create an account with Clarity Global in just a few simple
-                  steps. Once registered and verified, you're ready to start
-                  sending money.
+                  Set up your Clarity Global account in just a few simple steps.
+                  After registration and verification, you'll be ready to handle
+                  global transactions.
                 </p>
               </div>
             </div>
             <div className="item fadeInUp">
               <span></span>
               <div>
-                <h3>Fast Transfers</h3>
+                <h3>Quick Transfers</h3>
                 <p>
-                  Enjoy quick international transfers. Our system ensures that
-                  your money reaches its destination in minutes.
+                  Experience speedy international payments. Clarity Global's
+                  system guarantees your business funds arrive at their
+                  destination in minutes.
                 </p>
               </div>
             </div>
             <div className="item fadeInUp">
               <span></span>
               <div>
-                <h3>Competitive Fees</h3>
+                <h3>Transparent Pricing</h3>
                 <p>
-                  Benefit from transparent and low fees. Our competitive rates
-                  mean you can send money affordably without hidden costs.
+                  Clarity Global offers low, transparent fees. Our competitive
+                  rates allow your business to transfer funds affordably without
+                  hidden costs.
                 </p>
               </div>
             </div>
           </div>
-          <Link href="https://clarityglobalinc.com/send.html" target="_blank" className="orange-button">Send Money</Link>
+          <Link
+            href="https://clarityglobalinc.com/send.html"
+            target="_blank"
+            className="orange-button"
+          >
+            Send Money
+          </Link>
         </div>
       </div>
     </section>
