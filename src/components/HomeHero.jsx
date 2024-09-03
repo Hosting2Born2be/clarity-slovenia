@@ -11,7 +11,7 @@ const HomeHero = () => {
           <div>
             <h1 className="fadeInUp">
               Clarity Global: Your Smart <br />
-              Electronic Money Solutio
+              Electronic Money Solution
             </h1>
             <p className="fadeInUp">Manage Global Payments with Ease</p>
             <ul>
